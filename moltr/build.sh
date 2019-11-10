@@ -6,7 +6,7 @@ if [ -f "$CC" ]; then
 	"$CC" -c argsort.cpp
 	ar rcs libargsort.a argsort.o
 	rm argsort.o
-	/Users/akurennoy/anaconda3/bin/python setup.py build_ext --inplace
+	python setup.py build_ext --inplace
 	rm lambdaobj.c libargsort.a
 	rm -rf build
 else
