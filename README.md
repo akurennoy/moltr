@@ -1,5 +1,5 @@
 # moltr
-Multi-objective learning to rank with LightGBM
+Multi-Objective Learning to Rank with LightGBM
 
 The repository contains
 
